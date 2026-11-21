@@ -1,0 +1,4 @@
+requests
+eth-abi
+eth-utils
+matplotlib

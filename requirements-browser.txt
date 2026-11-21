@@ -1,0 +1,3 @@
+# only for scripts/browser_driver.py (how the hands-on run was done with a throwaway key)
+eth-account
+playwright
