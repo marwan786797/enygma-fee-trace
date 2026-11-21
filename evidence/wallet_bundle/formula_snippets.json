@@ -1,0 +1,13 @@
+{
+ "bundle_url": "https://enygma-testnet.rayls.com/assets/index-Dlv-HYaZ.js",
+ "sha256": "7530bbc2d7a301c50e28923529cb9315f88145a9a25a7c71db8a1f34afd9ca68",
+ "found": {
+  "constants (commission address, token fee bps, gas share %, extra gas terms)": "var Or=`0x71AF09966CBED4434ccA97c40Fa38B8083548B95`,kr=25n,Ar=15n,jr=100000n,Mr=150000n,Nr=700,Pr=16n,Fr=25n,Ir=`0.0000032`",
+  "gas padding Ir(e)": "function Lr(e){return e*12n/10n+20000n}",
+  "priced gas Lr(e,t,n)": "function Rr(e,t,n=!1){let r=e+Mr+Pr*BigInt(t+Nr);return n?r+jr:r}",
+  "token fee ceil(amount*25/10000)": "function zr(e){return(e*kr+9999n)/10000n}",
+  "commission share fee*15/115": "function Br(e){return e*Ar/115n}",
+  "gas fee = gas * rlsPerGas * 115/100": "function Ur(e,t){return e*t*115n/100n}",
+  "shielded payment gas constants": "Wr=50n,Gr=1600000n,Kr=1400000n"
+ }
+}

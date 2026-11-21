@@ -1,0 +1,6 @@
+.keys/
+.browser_*/
+.venv/
+__pycache__/
+*.key
+evidence/wallet_bundle/*.js

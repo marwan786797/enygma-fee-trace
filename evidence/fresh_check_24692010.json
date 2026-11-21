@@ -1,0 +1,219 @@
+{
+ "rpc": "https://testnet-rpc.rayls.com",
+ "from_block": 24667603,
+ "to_block": 24692010,
+ "public_fee_events": 18,
+ "sponsored_fee_0": 2,
+ "paid_fees": 16,
+ "paid_fees_by_others": 14,
+ "formula_exact": 16,
+ "payout_exact": 16,
+ "other_payouts": 9,
+ "other_payouts_by_value_rls": {
+  "1.656": 3,
+  "0.576": 3,
+  "0.61296048": 1,
+  "1.00395684": 1,
+  "1.08": 1
+ },
+ "rows": [
+  {
+   "tx": "https://testnet-explorer.rayls.com/tx/0xc73d2c55ae6e9e9c9fa88c0ff686a2d2da33a91756b9dca016b3ca5b69f729de",
+   "block": 24668736,
+   "account": "0x13ff4ac018d9f14d9bd4a292d5ac249e280526e1",
+   "mine": false,
+   "time": "2026-11-20 09:51:39 UTC / 2026-11-20 03:21:39 PM IST",
+   "fee_rls": "4.56547056",
+   "formula": "exact",
+   "commission_rls": "0.59549616",
+   "payout": "https://testnet-explorer.rayls.com/tx/0x5f0926d77b272eb4dbcae0b2a06a006b05e217da9dc6f17c01cab533e5cf41ad"
+  },
+  {
+   "tx": "https://testnet-explorer.rayls.com/tx/0x814a8bfbc00dab9c79fafb47af3aaa2b092ebf0d6a985b4cbc3f558990377bad",
+   "block": 24671191,
+   "account": "0x13ff4ac018d9f14d9bd4a292d5ac249e280526e1",
+   "mine": false,
+   "fee_rls": "0",
+   "formula": "n/a (fee 0, sponsored)",
+   "commission_rls": "0",
+   "payout": null,
+   "time": ""
+  },
+  {
+   "tx": "https://testnet-explorer.rayls.com/tx/0x67fd9a5a217d12bf7e6043c45963e214a7240b60ca8b2e7031f22efa8e9d4d83",
+   "block": 24672921,
+   "account": "0xf63483b1dd7f091200ad7c5f03ef92a80b644e65",
+   "mine": false,
+   "time": "2026-11-20 10:30:19 UTC / 2026-11-20 04:00:19 PM IST",
+   "fee_rls": "7.19313132",
+   "formula": "exact",
+   "commission_rls": "0.93823452",
+   "payout": "https://testnet-explorer.rayls.com/tx/0xdeb549c4b7848fa4e4e321e7e3f8412d346eaf877a2ecbab4bf520ab641c8e65"
+  },
+  {
+   "tx": "https://testnet-explorer.rayls.com/tx/0x31d04a532d9e198e8b267f4ec63e5c6aa9578129905629ccc6d3b6818d4f2aea",
+   "block": 24674150,
+   "account": "0xf63483b1dd7f091200ad7c5f03ef92a80b644e65",
+   "mine": false,
+   "time": "2026-11-20 10:41:39 UTC / 2026-11-20 04:11:39 PM IST",
+   "fee_rls": "3.52572336",
+   "formula": "exact",
+   "commission_rls": "0.45987696",
+   "payout": "https://testnet-explorer.rayls.com/tx/0x291f138cee2131f7907af95ee26eefd1062ef98e7e860cf5982732549f1e95b6"
+  },
+  {
+   "tx": "https://testnet-explorer.rayls.com/tx/0x4d49be90bd7c33604f1b43e34dbc3875701fd6fd0282e1f4c7dc21888c800d3d",
+   "block": 24676085,
+   "account": "0xef12d5bf995c614fff1362cf8376d2c3a1ba544a",
+   "mine": false,
+   "time": "2026-11-20 10:59:31 UTC / 2026-11-20 04:29:31 PM IST",
+   "fee_rls": "7.1898552",
+   "formula": "exact",
+   "commission_rls": "0.9378072",
+   "payout": "https://testnet-explorer.rayls.com/tx/0x40c58087b7ced00c00def3224f787618e5e0d094cb1b9088d4fe58512be42c73"
+  },
+  {
+   "tx": "https://testnet-explorer.rayls.com/tx/0x8bbd8f1d9c53c68d2763555baa1da1dcb4967284e9df798512817840d3ac8676",
+   "block": 24676127,
+   "account": "0xef12d5bf995c614fff1362cf8376d2c3a1ba544a",
+   "mine": false,
+   "time": "2026-11-20 10:59:54 UTC / 2026-11-20 04:29:54 PM IST",
+   "fee_rls": "3.54440856",
+   "formula": "exact",
+   "commission_rls": "0.46231416",
+   "payout": "https://testnet-explorer.rayls.com/tx/0x8a561050a98bac7c310a1c6d8bac96f252ccdbe30ad742b9b68091831cd74fe9"
+  },
+  {
+   "tx": "https://testnet-explorer.rayls.com/tx/0xc70c83229f495a868c24055467e4413afae6ed6ffecc23f14f3ca5e8d54e8dc7",
+   "block": 24676538,
+   "account": "0xef12d5bf995c614fff1362cf8376d2c3a1ba544a",
+   "mine": false,
+   "time": "2026-11-20 11:03:42 UTC / 2026-11-20 04:33:42 PM IST",
+   "fee_rls": "3.81427308",
+   "formula": "exact (+100,000 token fee gas)",
+   "commission_rls": "0.49751388",
+   "payout": "https://testnet-explorer.rayls.com/tx/0xed3841d943084077240db6ac987f3ef418641f45cec0642ec5a6010b96f45fb0"
+  },
+  {
+   "tx": "https://testnet-explorer.rayls.com/tx/0x51fd09dfbd2906f448ea9a76e1692110957ab540975050362aba7276b93dcca7",
+   "block": 24676646,
+   "account": "0xef12d5bf995c614fff1362cf8376d2c3a1ba544a",
+   "mine": false,
+   "time": "2026-11-20 11:04:42 UTC / 2026-11-20 04:34:42 PM IST",
+   "fee_rls": "3.5627736",
+   "formula": "exact",
+   "commission_rls": "0.4647096",
+   "payout": "https://testnet-explorer.rayls.com/tx/0xfc23a91d5391eb6d175c6c71bb40b89c785f1773844e3be8af46ef08c435e0a3"
+  },
+  {
+   "tx": "https://testnet-explorer.rayls.com/tx/0x732f75d1fc8cccc6fb0fcc2d79632f40d4d13935eb85bfabf66733eafda9e8c6",
+   "block": 24677929,
+   "account": "0x4f1aa6cb2c8932583f2844a855fb057c589f23e9",
+   "mine": true,
+   "time": "2026-11-20 11:16:32 UTC / 2026-11-20 04:46:32 PM IST",
+   "fee_rls": "3.8329638",
+   "formula": "exact (+100,000 token fee gas)",
+   "commission_rls": "0.4999518",
+   "payout": "https://testnet-explorer.rayls.com/tx/0xf1fc73238fecb68b2f1b2e45375f608921bb4e4e236b6660d7f108430d803127"
+  },
+  {
+   "tx": "https://testnet-explorer.rayls.com/tx/0xfdaa7706b311a027e937003d49d89a041c086bf1bd5256de66da12c87141e202",
+   "block": 24678513,
+   "account": "0x4f1aa6cb2c8932583f2844a855fb057c589f23e9",
+   "mine": true,
+   "time": "2026-11-20 11:21:56 UTC / 2026-11-20 04:51:56 PM IST",
+   "fee_rls": "4.75776528",
+   "formula": "exact (+100,000 token fee gas)",
+   "commission_rls": "0.62057808",
+   "payout": "https://testnet-explorer.rayls.com/tx/0xe2400171258c3bc39e80e7e5bd531e9be7bfe46095a5e6fa603fe6e7e77dfd11"
+  },
+  {
+   "tx": "https://testnet-explorer.rayls.com/tx/0x11e0fe4bf399197327f6e5a075267785dcd6307550c174ddaca1aa18492a1a08",
+   "block": 24679165,
+   "account": "0x0afa86d50af225fd784b6975c3ae012aaaa8a9cc",
+   "mine": false,
+   "time": "2026-11-20 11:27:53 UTC / 2026-11-20 04:57:53 PM IST",
+   "fee_rls": "7.19467968",
+   "formula": "exact",
+   "commission_rls": "0.93843648",
+   "payout": "https://testnet-explorer.rayls.com/tx/0xeed569950e22bef071ab75de7f490b28753f49457f2b046e46899832d2f277ed"
+  },
+  {
+   "tx": "https://testnet-explorer.rayls.com/tx/0x5936f0383868fac0d2ef331384173eb82f23c7125cc29ea7421b735ab4fb118e",
+   "block": 24686871,
+   "account": "0x279280638ff791e524779bea29550969b0b2aaa3",
+   "mine": false,
+   "time": "2026-11-20 12:38:06 UTC / 2026-11-20 06:08:06 PM IST",
+   "fee_rls": "7.19467968",
+   "formula": "exact",
+   "commission_rls": "0.93843648",
+   "payout": "https://testnet-explorer.rayls.com/tx/0xfbf8b272c297220fc45ada3b4a61ddaeb4b4a44ece418dd38d3f6a3755754478"
+  },
+  {
+   "tx": "https://testnet-explorer.rayls.com/tx/0x5d7e7d399124aaf07b8043dfd6876de8276b8533ca3f0b7ee07329e810cd6f7b",
+   "block": 24687026,
+   "account": "0xfa38280bf13845f404732c764b33793fc24b3dee",
+   "mine": false,
+   "time": "2026-11-20 12:39:30 UTC / 2026-11-20 06:09:30 PM IST",
+   "fee_rls": "7.2019164",
+   "formula": "exact",
+   "commission_rls": "0.9393804",
+   "payout": "https://testnet-explorer.rayls.com/tx/0x7f872d8b326a6fa314267a0d75bcd180b42bed4a31445eb0e62d9366e7af3c2a"
+  },
+  {
+   "tx": "https://testnet-explorer.rayls.com/tx/0x8bdecd3a5c7fca5d08703780a5d6630570d6a6dafc2149f2366035bdcc2a4414",
+   "block": 24687078,
+   "account": "0xfa38280bf13845f404732c764b33793fc24b3dee",
+   "mine": false,
+   "time": "2026-11-20 12:39:58 UTC / 2026-11-20 06:09:58 PM IST",
+   "fee_rls": "3.52596348",
+   "formula": "exact",
+   "commission_rls": "0.45990828",
+   "payout": "https://testnet-explorer.rayls.com/tx/0x3ab3d153d6789656acdafb7bf18b8bd3102811a517c22c73c163ac0acf1c4a70"
+  },
+  {
+   "tx": "https://testnet-explorer.rayls.com/tx/0xf899bb8bd583e3f31eb8d35ad1861190f242740d1ae9c083656c89cb3654e17a",
+   "block": 24687318,
+   "account": "0x279280638ff791e524779bea29550969b0b2aaa3",
+   "mine": false,
+   "time": "2026-11-20 12:42:08 UTC / 2026-11-20 06:12:08 PM IST",
+   "fee_rls": "0.7242654",
+   "formula": "exact",
+   "commission_rls": "0.0944694",
+   "payout": "https://testnet-explorer.rayls.com/tx/0x5f3ff86094249f68e99e11032932c7885751d34bdf017f986ce0250eb620f436"
+  },
+  {
+   "tx": "https://testnet-explorer.rayls.com/tx/0x2e1572094bc6b1023465399d7a7d903f8022405ac5fdaaa08e729e4bc6b1cadc",
+   "block": 24687811,
+   "account": "0x279280638ff791e524779bea29550969b0b2aaa3",
+   "mine": false,
+   "time": "2026-11-20 12:46:38 UTC / 2026-11-20 06:16:38 PM IST",
+   "fee_rls": "3.50744112",
+   "formula": "exact",
+   "commission_rls": "0.45749232",
+   "payout": "https://testnet-explorer.rayls.com/tx/0x47807e1bdf7dda35b4b67d791d767fc947adad7017efc3291a885f6ccc3a3beb"
+  },
+  {
+   "tx": "https://testnet-explorer.rayls.com/tx/0x399762a5eda19ba31e8c2a5d5cb5280ab4fc781b4dd5a571dac94dbefcda06aa",
+   "block": 24688175,
+   "account": "0x279280638ff791e524779bea29550969b0b2aaa3",
+   "mine": false,
+   "fee_rls": "0",
+   "formula": "n/a (fee 0, sponsored)",
+   "commission_rls": "0",
+   "payout": null,
+   "time": ""
+  },
+  {
+   "tx": "https://testnet-explorer.rayls.com/tx/0xd9f22f07b5c6a7968b118f11795a83d5232462e98ea595907c4f6b7db4e91524",
+   "block": 24688762,
+   "account": "0x2535c76ded15baf58efe726e0a24196b44e50310",
+   "mine": false,
+   "time": "2026-11-20 12:55:19 UTC / 2026-11-20 06:25:19 PM IST",
+   "fee_rls": "7.1959134",
+   "formula": "exact",
+   "commission_rls": "0.9385974",
+   "payout": "https://testnet-explorer.rayls.com/tx/0x7a0fca45ea207401bf3ffd592ee03da37cb55ddea182383ef916815c927b4747"
+  }
+ ]
+}

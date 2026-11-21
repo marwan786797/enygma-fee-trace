@@ -1,0 +1,160 @@
+{
+ "snapshot_to_block": 24667602,
+ "snapshot_time_utc": "2026-11-20 09:41:12 UTC",
+ "relayed_events": 715,
+ "relayed_txs": 715,
+ "by_forwarder": {
+  "RlsGasForwarder (earlier)": 241,
+  "RlsGasForwarder (current)": 474
+ },
+ "by_action": {
+  "0xee293e14 (contract)": 8,
+  "shield": 289,
+  "shielded transfer": 9,
+  "unshield": 60,
+  "0x84c228dd (contract)": 2,
+  "register": 235,
+  "setAuditorPublicKey (UserRegistry)": 1,
+  "requestAuditorAccess (UserRegistry)": 1,
+  "addAuditor (UserRegistry)": 1,
+  "unregister": 4,
+  "sendWithUsdrAuthorization (PublicSender)": 11,
+  "createToken (TokenFactory)": 17,
+  "sendWithPermit (PublicSender)": 13,
+  "addAuditor (UserRegistryProxy)": 9,
+  "set personal key": 2,
+  "giveAuditorKey (UserRegistryProxy)": 2,
+  "mint (DevNft)": 17,
+  "mint (DevItems)": 20,
+  "shield (NFT)": 14
+ },
+ "fee_zero (sponsored)": 187,
+ "paid_fees": 528,
+ "commission_matched_exact": 375,
+ "commission_not_found": 153,
+ "formula_check": {
+  "differs (earlier pricing version)": 150,
+  "exact": 321,
+  "exact (+100000 token-fee gas)": 49,
+  "+97089 gas (approval-gas term, not reproduced)": 2,
+  "+97035 gas (approval-gas term, not reproduced)": 5,
+  "+96540 gas (approval-gas term, not reproduced)": 1
+ },
+ "median_fee_rls_by_action": {
+  "0x84c228dd (contract)": "8.68580052",
+  "0xee293e14 (contract)": "6.0287928",
+  "addAuditor (UserRegistry)": "3.7941816",
+  "addAuditor (UserRegistryProxy)": "0.77230044",
+  "createToken (TokenFactory)": "3.97887672",
+  "giveAuditorKey (UserRegistryProxy)": "3.8716398",
+  "mint (DevItems)": "0.67360284",
+  "mint (DevNft)": "0.731781",
+  "register": "7.19188656",
+  "requestAuditorAccess (UserRegistry)": "3.45907056",
+  "sendWithPermit (PublicSender)": "0.84577698",
+  "sendWithUsdrAuthorization (PublicSender)": "0.72428472",
+  "set personal key": "3.492126",
+  "setAuditorPublicKey (UserRegistry)": "9.09916128",
+  "shield": "3.5444679",
+  "shield (NFT)": "3.8480127",
+  "shielded transfer": "3.085668",
+  "unregister": "1.95289512",
+  "unshield": "4.56547056"
+ },
+ "total_forwarder_fees_rls": "2535.79793916",
+ "total_commission_matched_rls": "241.39751436",
+ "commission_payouts_total": 849,
+ "payouts_not_tied_to_forwarder_fee": 474,
+ "payouts_not_tied_total_rls": "377.63366724",
+ "unmatched_payout_value_counts": [
+  [
+   "1.08",
+   101
+  ],
+  [
+   "0.576",
+   69
+  ],
+  [
+   "1.656",
+   19
+  ],
+  [
+   "0.59186124",
+   13
+  ],
+  [
+   "0.72",
+   10
+  ],
+  [
+   "0.6015708",
+   9
+  ],
+  [
+   "0.936",
+   8
+  ],
+  [
+   "0.384",
+   6
+  ],
+  [
+   "1.02301056",
+   6
+  ],
+  [
+   "0.768",
+   5
+  ],
+  [
+   "0.5984694",
+   4
+  ],
+  [
+   "0.17753592",
+   3
+  ]
+ ],
+ "usdr_token_fee_transfers_in": 179,
+ "median_commission_delay_s": 4,
+ "first_relayed_utc": "2026-10-27 12:23:49 UTC",
+ "last_relayed_utc": "2026-11-20 09:36:26 UTC",
+ "current_fee_version": {
+  "from_utc": "2026-11-09 16:04:14 UTC",
+  "from_tx": "0x8f25b99c1036c93e65782384f66489df6285acf23a6b14a8a5c667a988ae6aae",
+  "paid_fees": 378,
+  "commission_exact": 375,
+  "commission_not_found": [
+   [
+    "2026-11-17 17:07:30 UTC",
+    "0x3925cd6f0111f18dadd326ca74d9f72c6cdb14bdc4766eaab51a6deda56eab73"
+   ],
+   [
+    "2026-11-17 17:07:53 UTC",
+    "0xc2bf33d02a4e7ffc8873dfdc3aa8f3dcb9e7cf6ae0ee027af5c865df06223f48"
+   ],
+   [
+    "2026-11-17 17:11:18 UTC",
+    "0xedad565bc48d5580d678dfbb36ceb953f7c71847609e07a46f0e7edd4b31a644"
+   ]
+  ],
+  "formula": {
+   "exact": 321,
+   "exact (+100000 token-fee gas)": 49,
+   "+97089 gas (approval-gas term, not reproduced)": 2,
+   "+97035 gas (approval-gas term, not reproduced)": 5,
+   "+96540 gas (approval-gas term, not reproduced)": 1
+  },
+  "formula_differs_txs": [],
+  "fees_rls": "1862.26140468",
+  "commission_rls": "241.39751436",
+  "shielded_fee_payouts_after": 341,
+  "shielded_fee_payouts_rls": "317.09869596",
+  "shielded_payouts_before": 133
+ },
+ "earlier_version": {
+  "paid_fees": 150,
+  "until_utc": "2026-11-09 16:04:14 UTC"
+ }
+}

@@ -1,0 +1,123 @@
+[
+ {
+  "address": "0xa5f0C684EB49866a9f62f901Cd85f98a19DA0Ac8",
+  "type": "EOA (normal wallet, no code)",
+  "role_and_source": "Relayer (relayer /info 'relayer'; sender of every relayed tx)",
+  "verified": false,
+  "explorer": "https://testnet-explorer.rayls.com/address/0xa5f0C684EB49866a9f62f901Cd85f98a19DA0Ac8",
+  "api": "https://testnet-explorer.rayls.com/api/v2/addresses/0xa5f0C684EB49866a9f62f901Cd85f98a19DA0Ac8"
+ },
+ {
+  "address": "0x71AF09966CBED4434ccA97c40Fa38B8083548B95",
+  "type": "EOA (normal wallet, no code)",
+  "role_and_source": "Receives the 15% commission and 0.25% token fee (relayer /info 'treasury'; app config also lists it as auditor)",
+  "verified": false,
+  "explorer": "https://testnet-explorer.rayls.com/address/0x71AF09966CBED4434ccA97c40Fa38B8083548B95",
+  "api": "https://testnet-explorer.rayls.com/api/v2/addresses/0x71AF09966CBED4434ccA97c40Fa38B8083548B95"
+ },
+ {
+  "address": "0x12B6640048DEB2e8fFDa4Bc10Bb2a640B70eCA6d",
+  "type": "contract 'RlsGasForwarder'",
+  "role_and_source": "Gas forwarder, current (relayer /info 'forwarder')",
+  "verified": true,
+  "explorer": "https://testnet-explorer.rayls.com/address/0x12B6640048DEB2e8fFDa4Bc10Bb2a640B70eCA6d",
+  "api": "https://testnet-explorer.rayls.com/api/v2/addresses/0x12B6640048DEB2e8fFDa4Bc10Bb2a640B70eCA6d"
+ },
+ {
+  "address": "0x753cc3Abe9A1c49536ee74F1f424fCF693AAB5DD",
+  "type": "contract 'RlsGasForwarder'",
+  "role_and_source": "Gas forwarder, earlier",
+  "verified": true,
+  "explorer": "https://testnet-explorer.rayls.com/address/0x753cc3Abe9A1c49536ee74F1f424fCF693AAB5DD",
+  "api": "https://testnet-explorer.rayls.com/api/v2/addresses/0x753cc3Abe9A1c49536ee74F1f424fCF693AAB5DD"
+ },
+ {
+  "address": "0xA473291FFb33e2276F364fAE169f03c4406719e9",
+  "type": "eip1967 proxy 'UserRegistryProxy' -> UserRegistry 0x9686a3d5a9Fd2101d15888c6a09a64faFA7EE349",
+  "role_and_source": "User registry",
+  "verified": true,
+  "explorer": "https://testnet-explorer.rayls.com/address/0xA473291FFb33e2276F364fAE169f03c4406719e9",
+  "api": "https://testnet-explorer.rayls.com/api/v2/addresses/0xA473291FFb33e2276F364fAE169f03c4406719e9"
+ },
+ {
+  "address": "0x9C5Ad5e5Ea5b5910E7fD1E1CC7b70ce0e4bF06c2",
+  "type": "eip1967 proxy 'SharedVaultProxy' -> SharedVault 0xAd9667049f14D1757D147F652c41Dc241C57091C",
+  "role_and_source": "Shared vault",
+  "verified": true,
+  "explorer": "https://testnet-explorer.rayls.com/address/0x9C5Ad5e5Ea5b5910E7fD1E1CC7b70ce0e4bF06c2",
+  "api": "https://testnet-explorer.rayls.com/api/v2/addresses/0x9C5Ad5e5Ea5b5910E7fD1E1CC7b70ce0e4bF06c2"
+ },
+ {
+  "address": "0x97b5d78dbe06d8c8c843f87b5aa2d8587b890795",
+  "type": "contract 'Erc20CoinVault'",
+  "role_and_source": "RLS vault",
+  "verified": true,
+  "explorer": "https://testnet-explorer.rayls.com/address/0x97b5d78dbe06d8c8c843f87b5aa2d8587b890795",
+  "api": "https://testnet-explorer.rayls.com/api/v2/addresses/0x97b5d78dbe06d8c8c843f87b5aa2d8587b890795"
+ },
+ {
+  "address": "0x1edb224cf8637f92efadaf47ef9e70c044d75584",
+  "type": "contract 'Erc20CoinVault'",
+  "role_and_source": "USDr vault",
+  "verified": true,
+  "explorer": "https://testnet-explorer.rayls.com/address/0x1edb224cf8637f92efadaf47ef9e70c044d75584",
+  "api": "https://testnet-explorer.rayls.com/api/v2/addresses/0x1edb224cf8637f92efadaf47ef9e70c044d75584"
+ },
+ {
+  "address": "0xBf099175a241194C38E977735D59CCb22596d775",
+  "type": "contract 'OwnerMultisig' (custom multisig, not a Safe)",
+  "role_and_source": "Owner multisig (docs: upgrades registry + shared vault)",
+  "verified": true,
+  "explorer": "https://testnet-explorer.rayls.com/address/0xBf099175a241194C38E977735D59CCb22596d775",
+  "api": "https://testnet-explorer.rayls.com/api/v2/addresses/0xBf099175a241194C38E977735D59CCb22596d775",
+  "threshold": 2
+ },
+ {
+  "address": "0x07e17E17e17E17e17e17e17E17E17E17E17e17EA",
+  "type": "eip1967 proxy 'ERC1967Proxy' -> None 0x07E17E17E17E17E17e17E17E17E17E17E17e17eb",
+  "role_and_source": "RLS token on testnet (relayer /info 'rls')",
+  "verified": true,
+  "explorer": "https://testnet-explorer.rayls.com/address/0x07e17E17e17E17e17e17e17E17E17E17E17e17EA",
+  "api": "https://testnet-explorer.rayls.com/api/v2/addresses/0x07e17E17e17E17e17e17e17E17E17E17E17e17EA"
+ },
+ {
+  "address": "0x0000000000000000000000000000000000000400",
+  "type": "precompile (eth_getCode = 0x00, no real bytecode); explorer lists it as ERC-20 'USD Rayls'",
+  "role_and_source": "USDr (gas token, precompile)",
+  "verified": false,
+  "explorer": "https://testnet-explorer.rayls.com/address/0x0000000000000000000000000000000000000400",
+  "api": "https://testnet-explorer.rayls.com/api/v2/addresses/0x0000000000000000000000000000000000000400"
+ },
+ {
+  "address": "0x4f1aa6CB2C8932583F2844a855fB057C589F23E9",
+  "type": "EOA (normal wallet, no code)",
+  "role_and_source": "Test account A @railfeetrace1 (throwaway key made on the box)",
+  "verified": false,
+  "explorer": "https://testnet-explorer.rayls.com/address/0x4f1aa6CB2C8932583F2844a855fB057C589F23E9",
+  "api": "https://testnet-explorer.rayls.com/api/v2/addresses/0x4f1aa6CB2C8932583F2844a855fB057C589F23E9"
+ },
+ {
+  "address": "0x9d42151e47511d72DbBDD54824053a88F343d3e0",
+  "type": "EOA (normal wallet, no code)",
+  "role_and_source": "Test account B @railfeetrace2 (throwaway key made on the box)",
+  "verified": false,
+  "explorer": "https://testnet-explorer.rayls.com/address/0x9d42151e47511d72DbBDD54824053a88F343d3e0",
+  "api": "https://testnet-explorer.rayls.com/api/v2/addresses/0x9d42151e47511d72DbBDD54824053a88F343d3e0"
+ },
+ {
+  "address": "0xD0a85b7571000c6F8dC89699BBCD69862F343C7d",
+  "type": "EOA (normal wallet, no code)",
+  "role_and_source": "Test account C @railfeetrace3 (throwaway key made on the box, joined by B's invite)",
+  "verified": false,
+  "explorer": "https://testnet-explorer.rayls.com/address/0xD0a85b7571000c6F8dC89699BBCD69862F343C7d",
+  "api": "https://testnet-explorer.rayls.com/api/v2/addresses/0xD0a85b7571000c6F8dC89699BBCD69862F343C7d"
+ },
+ {
+  "address": "0x74a6792ddb096873df810edb01ab7e60d2f04524",
+  "type": "EOA (normal wallet, no code)",
+  "role_and_source": "Pass-through hop in the USDr shield tx (USDr A -> this -> shared vault); role not documented",
+  "verified": false,
+  "explorer": "https://testnet-explorer.rayls.com/address/0x74a6792ddb096873df810edb01ab7e60d2f04524",
+  "api": "https://testnet-explorer.rayls.com/api/v2/addresses/0x74a6792ddb096873df810edb01ab7e60d2f04524"
+ }
+]

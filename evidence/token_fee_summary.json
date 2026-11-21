@@ -1,0 +1,6 @@
+{
+ "usdr_fee_transfers": 121,
+ "result": {
+  "exact ceil(amount x 0.25%)": 121
+ }
+}
